@@ -161,6 +161,11 @@ components:
                   format: date
             - type: string
               maxLength: 5000
+    OneOfType:
+      oneOf:
+        - type: string
+        - type: float
+        default: 0.5
     Error:
       required:
         - code
